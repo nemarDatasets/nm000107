@@ -1,0 +1,31 @@
+{
+  "InstitutionName": "Meta Reality Labs",
+  "InstitutionAddress": "New York, NY, USA",
+  "InstitutionalDepartmentName": "Reality Labs Research",
+  "TaskDescription": "Participants performed continuous wrist angle control to move a cursor with sEMG recorded from dominant wrist.",
+  "Instructions": "Control the cursor using wrist flexion/extension. Acquire targets by moving cursor into target and holding for 500ms.",
+  "CogAtlasID": "n/a",
+  "CogPOID": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "EMGChannelCount": 16,
+  "PowerLineFrequency": 60,
+  "HardwareFilters": {
+    "Highpass": {
+      "CutoffHz": 20
+    },
+    "Lowpass": {
+      "CutoffHz": 850
+    }
+  },
+  "SoftwareFilters": "n/a",
+  "Manufacturer": "Meta Reality Labs",
+  "ManufacturersModelName": "sEMG-RD",
+  "SoftwareVersions": "n/a",
+  "RecordingType": "continuous",
+  "RecordingDuration": 178.0785,
+  "EpochLength": "n/a",
+  "TaskName": "wrist",
+  "EMGReference": "common",
+  "SamplingFrequency": 2000,
+  "EMGPlacementScheme": "Other"
+}
