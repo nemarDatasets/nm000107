@@ -1,5 +1,5 @@
 {
-    "Name": "FRL-WRIST-EMG-BIDS",
+    "Name": "wrist: Wrist Movement Control from EMG",
     "BIDSVersion": "1.11.0",
     "License": "CC-BY-NC 4.0",
     "Authors": [
