@@ -101,7 +101,7 @@ Single coordinate system at root (dominant wrist, percent units, no decimals)
 ```
 Kaifosh, P., Reardon, T.R., & CTRL-labs at Reality Labs. (2025).
 A generic non-invasive neuromotor interface for human-computer interaction.
-Nature, 586, https://doi.org/10.1038/s41586-025-09255-w
+Nature, 645(8081), 702-711. https://doi.org/10.1038/s41586-025-09255-w
 ```
 
 ## Data Curator
