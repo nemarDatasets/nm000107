@@ -22,7 +22,7 @@
   "ManufacturersModelName": "sEMG-RD",
   "SoftwareVersions": "n/a",
   "RecordingType": "continuous",
-  "RecordingDuration": 158.258,
+  "RecordingDuration": 1365.664,
   "EpochLength": "n/a",
   "TaskName": "wrist",
   "EMGReference": "common",
