@@ -1,11 +1,11 @@
 {
   "onset": {
     "Description": "Event onset time",
-    "Units": "seconds"
+    "Units": "s"
   },
   "duration": {
     "Description": "Stage/trial duration",
-    "Units": "seconds"
+    "Units": "s"
   },
   "sample": {
     "Description": "Event onset sample (at 2000 Hz)",

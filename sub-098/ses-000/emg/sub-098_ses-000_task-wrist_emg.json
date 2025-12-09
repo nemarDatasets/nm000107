@@ -23,9 +23,8 @@
   "SoftwareVersions": "n/a",
   "RecordingType": "continuous",
   "RecordingDuration": 1650.2,
-  "EpochLength": "n/a",
   "TaskName": "wrist",
   "EMGReference": "common",
   "SamplingFrequency": 2000,
-  "EMGPlacementScheme": "Other"
+  "EMGPlacementScheme": "ChannelSpecific"
 }
