@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Event onset time",
+    "Units": "seconds"
+  },
+  "duration": {
+    "Description": "Stage/trial duration",
+    "Units": "seconds"
+  },
+  "sample": {
+    "Description": "Event onset sample (at 2000 Hz)",
+    "Units": "samples"
+  },
+  "value": {
+    "Description": "Event type (stage for wrist continuous control task)",
+    "Levels": {
+      "stage": "Stage/trial boundary for wrist angle control"
+    }
+  },
+  "stage_name": {
+    "Description": "Stage/trial name"
+  }
+}
