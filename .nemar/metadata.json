@@ -1,11 +1,44 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "FRL Wrist Control: Wrist Movement Decoding from Surface Electromyography",
+  "description": "This dataset comprises wrist-based surface electromyography (sEMG) recordings from 100 participants performing continuous cursor control via wrist flexion and extension movements. Synchronized motion capture provides ground-truth wrist angles, enabling evaluation of sEMG-based decoding of motor intent. The study demonstrates the feasibility of gesture-free, non-invasive neuromotor interfaces for human-computer interaction, with applications to AR/VR navigation and assistive control systems. Note: Raw data contains duplicate timestamps and irregular sampling in many sessions; post-processing includes duplicate removal and resampling to regular 2000 Hz intervals.",
+  "methods_description": "Participants wore a 16-channel sEMG wristband (sEMG-RD) on the dominant wrist while performing a target acquisition task involving continuous horizontal cursor control via wrist flexion/extension. Motion capture tracked wrist angles in real-time at 2000 Hz sampling rate using bipolar differential referencing. Participants navigated to visual targets and held position for 500ms. Data were post-processed to remove duplicate timestamps and resample to regular 2000 Hz intervals to address data quality issues.",
+  "license": "CC-BY-NC 4.0",
   "authors": {
     "Patrick Kaifosh": {},
     "Thomas R. Reardon": {},
     "CTRL-labs at Reality Labs": {}
   },
+  "keywords": [
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "motor control",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
+    },
+    {
+      "term": "wrist movement",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014953"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "human-computer interaction"
+    },
+    {
+      "term": "sEMG"
+    },
+    {
+      "term": "cursor control"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41586-025-09255-w",
@@ -26,39 +59,11 @@
       "identifier": "10.5281/zenodo.17613963",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
-    }
-  ],
-  "title": "FRL Wrist Control: Wrist Movement Decoding from Surface Electromyography",
-  "license": "CC-BY-NC 4.0",
-  "modalities": [
-    "emg"
-  ],
-  "resource_type_specific": "EMG Dataset",
-  "description": "This dataset comprises wrist-based surface electromyography (sEMG) recordings from 100 participants performing continuous cursor control via wrist flexion/extension movements. Synchronized motion capture provides ground-truth wrist angles, enabling investigation of sEMG's capacity to decode motor intent and support gesture-free human-computer interaction. The study demonstrates predictive decoding of wrist kinematics from non-invasive sEMG signals recorded at 2000 Hz using a 16-channel wristband device.",
-  "methods_description": "Participants wore a 16-channel sEMG-RD wristband on their dominant wrist while performing a target acquisition task involving continuous horizontal cursor control via wrist flexion/extension. Motion capture tracked wrist angles in real-time as ground truth. Signals were recorded at 2000 Hz using bipolar differential referencing. Data underwent post-processing to address duplicate timestamps and irregular sampling, followed by resampling to regular 2000 Hz.",
-  "keywords": [
-    {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
-      "term": "motor control"
-    },
-    {
-      "term": "wrist movement"
-    },
-    {
-      "term": "neural decoding"
-    },
-    {
-      "term": "human-computer interaction"
-    },
-    {
-      "term": "gesture recognition"
-    },
-    {
-      "term": "sEMG"
+      "identifier": "10.82901/nemar.nm000107",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
     }
   ],
   "funding_references": [
@@ -66,5 +71,9 @@
       "funder_name": "Meta Reality Labs"
     }
   ],
-  "source_hash": "119ac9d1da9b03d168a88ee1e547eae871d826eaabb6978accc4c9f4f3cdf4ed"
+  "resource_type_specific": "EMG Dataset",
+  "modalities": [
+    "emg"
+  ],
+  "source_hash": "a09eb232045041f8dc112c2f97131b23d87b607346e5a9a815e8d1389fb7dfdc"
 }
