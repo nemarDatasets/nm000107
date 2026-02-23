@@ -1,0 +1,65 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Patrick Kaifosh": {},
+    "Thomas R. Reardon": {},
+    "CTRL-labs at Reality Labs": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41586-025-09255-w",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000107",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000107",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "FRL Wrist Control: Wrist Movement Decoding from Surface Electromyography",
+  "license": "CC-BY-NC 4.0",
+  "modalities": [
+    "emg"
+  ],
+  "resource_type_specific": "EMG Dataset",
+  "description": "This dataset comprises wrist-based surface electromyography (sEMG) recordings from 100 participants performing continuous cursor control via wrist flexion/extension movements. Synchronized motion capture provides ground-truth wrist angles, enabling investigation of sEMG's capacity to decode motor intent and support gesture-free human-computer interaction. The study demonstrates predictive decoding of wrist kinematics from non-invasive sEMG signals recorded at 2000 Hz using a 16-channel wristband device.",
+  "methods_description": "Participants wore a 16-channel sEMG-RD wristband on their dominant wrist while performing a target acquisition task involving continuous horizontal cursor control via wrist flexion/extension. Motion capture tracked wrist angles in real-time as ground truth. Signals were recorded at 2000 Hz using bipolar differential referencing. Data underwent post-processing to address duplicate timestamps and irregular sampling, followed by resampling to regular 2000 Hz.",
+  "keywords": [
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "wrist movement"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "human-computer interaction"
+    },
+    {
+      "term": "gesture recognition"
+    },
+    {
+      "term": "sEMG"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Meta Reality Labs"
+    }
+  ],
+  "source_hash": "119ac9d1da9b03d168a88ee1e547eae871d826eaabb6978accc4c9f4f3cdf4ed"
+}
